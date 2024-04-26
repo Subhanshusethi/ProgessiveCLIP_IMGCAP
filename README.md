@@ -18,6 +18,9 @@ This project is a work-in-progress exploring the potential of contrastive learni
   
 - **Image Augmentation:** Images are augmented using the Albumentations library, enhancing the dataset's diversity and robustness.
 
+### Custom activation function
+- **GELUSIG** Multiplied GELU activation function with sigmoid activation function gelu having a linear input and sigmoid having a squared input,better nonlinearity is captured.
+
 ### Evaluation Metrics
 
 The project employs several standard metrics for image captioning evaluation:
