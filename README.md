@@ -12,6 +12,12 @@ This project is a work-in-progress exploring the potential of contrastive learni
   
 - **Contrastive Learning Objective:** The model incorporates a contrastive learning objective that encourages the encoders to learn similar representations for semantically related images and captions.
 
+### Data Processing
+
+- **Caption Preprocessing:** Captions are preprocessed to limit them to a specific word limit, ensuring consistency in input data for training.
+  
+- **Image Augmentation:** Images are augmented using the Albumentations library, enhancing the dataset's diversity and robustness.
+
 ### Evaluation Metrics
 
 The project employs several standard metrics for image captioning evaluation:
